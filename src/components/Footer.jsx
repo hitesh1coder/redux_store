@@ -4,7 +4,6 @@ import {
   Instagram,
   LocalPhoneOutlined,
   LocationOnOutlined,
-  Phone,
   Pinterest,
   Twitter,
 } from "@material-ui/icons";

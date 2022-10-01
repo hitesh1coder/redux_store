@@ -2,11 +2,11 @@ import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import webstore from "../img/webStore.jpg";
-import { useState } from "react";
+// import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [user, setUser] = useState(false);
+  // const [user, setUser] = useState(false);
   const style = "text-[14px], cursor-pointer, ml-[25px] mobile:ml-[5px]";
   return (
     <div className="navbar h-[60px] shadow-md relative z-10 ">
