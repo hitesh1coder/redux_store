@@ -1,0 +1,31 @@
+.cart_container {
+  display: flex;
+}
+.Cart {
+  width: 1100vw;
+  display: flex;
+  flex-direction: column;
+}
+.cart_item {
+  display: flex;
+  width: 98%;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.cart_image,
+.cart_details {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart_img {
+  width: 15rem;
+}
+.cart_details {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  gap: 1rem;
+}
